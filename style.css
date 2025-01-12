@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Manrope", serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-size: 10px;
+}
+
+/* UTILITIES */
+.btn{
+    font-size: 2rem;
+    padding: 2.4rem 4rem;
+    border-radius: 16px;
+}
+.btnPrimary{
+    color: #fff;
+    border: none;
+    background-color: #6FC247;
+}
+.btnSecondary{
+    background-color: #fff;
+    color: #6FC247;
+    border: 1px solid #6FC247;
+}
+.padding{
+    padding-left:  10.3rem;
+    padding-right:  10.3rem;
+}
+
+/* HEADER SECTION STYLING */
+#logoCtn{
+    width: 17rem;
+    height: 2.3rem;
+}
+header{
+    display: flex;
+    padding: 5.6rem 0;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+}
+nav{
+    display: flex;
+    gap: 10.8rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 5.4rem;
+}
+nav li>a{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+nav li>a:link, nav li>a:visited{
+    color: #636363;
+}
+nav li>a:hover, nav li>a:active{
+    color: #065666;
+}
+
+/* HERO SECTION STYLING */
+#heroText{
+    padding-top: 6.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+}
+#heroText h1{
+    font-size: 6.4rem;
+    font-weight: 800;
+    text-align: center;
+    width: 97rem;
+}
+#heroText p{
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-align: center;
+    width: 97rem;
+}
+.btns{
+    display: flex;
+    gap: 3.2rem;
+}
+#heroImg{
+    margin-top: 6.4rem;
+    width: 126rem;
+    height: 63.7rem;
+    /* align-content: center; */
+    display: flex;
+    margin-left: 12.6rem;
+}
+#logotxtimg{
+    margin-top: 2rem;
+    /* margin-bottom: 2rem; */
+    /* display: grid; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    align-items: center;
+    /* align-content: space-between; */
+    border: 2px solid blue;
+    /* flex-direction: row;
+    /* grid-template-rows: auto auto auto auto; */
+ */
+}
+
+.five{
+    /* width: 100%; */
+display: flex;
+/* margin-top: 3rem; */
+    /* flex: 100%; */
+    /* row-gap: 40px; */
+    /* width: 120rem; */
+    /* height: 40rem; */
+    /* flex-grow: 1; */
+    /* flex-direction: column; */
+    /* float: left; */
+    /* width: auto; */
+    /* padding: 10px; */
+    /* flex-direction: column; */
+    /* width: auto; */
+
+}
+
+.five img{
+display: flex;
+flex-direction: column;
+/* border: 1px solid; */
+margin-left: 1rem;
+margin-bottom: 1rem;
+/* width: auto; */
+/* justify-items: center; */
+/* border: 1px solid; */
+/* display: -ms-inline-grid; */
+
+
+/* gap: 10px; */
+/* flex-direction: column; */
+/* align-content: center; */
+
+}
+
+#why{
+    margin-top: 10rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+background-color: #111111;
+color: white;
+/* width: 100.2rem; */
+/* height: 45.6rem; */
+padding: 7.2rem 10.3rem;
+gap: 1rem;
+/* display: flex; */
+    /* align: center; */
+    /* display: flex; */
+}
+
+#why h1{
+    margin-top: 2.4rem;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    /* width: 97rem; */
+    margin-bottom: 3rem;
+    /* display: flex; */
+}
+
+#why > p {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 500;
+    text-align: center;
+    /* display: flex; */
+    /* border: 2px solid; */
+    margin-bottom: 6rem;
+    padding: .5rem 18rem;
+
+
+}
+
+.textIIctn{
+    /* margin-top: 6.4rem; */
+    display: inline-flex;
+    /* flex-direction: column; */
+    /* align-items: baseline; */
+    /* width: 130rem; */
+    /* height: 30rem; */
+}
+.textII{
+    display: flex;
+    flex-direction: column;
+    padding-left: 6rem;
+    /* text-align: left; */
+    /* gap: 2rem; */
+    /* column-gap: 2rem; */
+    /* padding-block: 2rem; */
+}
+
+.textII h2{
+    padding-bottom: 2rem;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+.textII p{
+    text-align: inherit;
+    color: #ffff;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 500;
+    /* padding-left: 4rem; */
+    border: 1px solid ;
+
+
+}
+#heroNew{
+    /* align-content: center; */
+    margin-top: 6.4rem;
+    /* gap: 1.6rems; */
+}
+#heroNew h1{
+    /* margin-top: 6.4rem; */
+    font-size: 3.2rem;
+    font-weight: 800;
+    text-align: center;
+    /* align-content: center; */
+    /* width: 97rem; */
+    /* margin: auto 3rem auto auto; */
+    /* display: flex; */
+    color: #373737;
+}
+#heroNew p{
+    font-size: 2rem;
+    line-height: 3.2rem;
+    font-weight: 500;
+    text-align: center;
+    /* border: 1px solid; */
+    margin-top: 2rem;
+    color: #111111;
+    /* border-width: 8rem; */
+    padding: .5rem 13rem;
+}
+
+#last{
+margin-top: 6.4rem;
+    display: flex;
+    width: 1304px;
+    height: 693px;
+    gap: 8.5rem;
+    align-items: center;
+}
+
+.lastimgctn{
+    width: 47.7rem;
+    height: 69.3rem;
+    /* align-items: center; */
+    /* gap: 2.4rem */
+}
+
+.lastimgctn img{
+    width: 731px;
+    height: 693px;
+}
+
+#lasttxtctn{
+    /* gap: 4.7rem; */
+    width: 47.7rem;
+    height: 69.3rem;
+    /* align-items: center; */
+    /* gap: 2.4rem; */
+
+}
+
+#lasttxtctn > p{
+margin-bottom: 10rem;
+font-size: 2rem;
+line-height: 3rem;
+    /* gap: 4.7rem; */
+
+}
+
+#lasttxtctn > h1{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    /* line-height: 3.27rem; */
+        /* gap: 4.7rem; */
+    
+    }
+
+    #btnsII {
+
+        display: flex;
+        align-items: center;
+        padding-top: 6.4rem;
+        padding-bottom: 6.4rem;
+        margin: auto;
+        justify-content: center;
+    }
+
+/* #lasttxtctn > p{ */
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    
+    /* } 
