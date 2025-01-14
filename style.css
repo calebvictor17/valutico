@@ -111,35 +111,17 @@ nav li>a:hover, nav li>a:active{
 }
 #logotxtimg{
     margin-top: 2rem;
-    /* margin-bottom: 2rem; */
-    /* display: grid; */
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
-    /* display: flex; */
-    /* flex-direction: row; */
+  
     align-items: center;
     /* align-content: space-between; */
     border: 2px solid blue;
-    /* flex-direction: row;
-    /* grid-template-rows: auto auto auto auto; */
+
  */
 }
 
 .five{
     /* width: 100%; */
 display: flex;
-/* margin-top: 3rem; */
-    /* flex: 100%; */
-    /* row-gap: 40px; */
-    /* width: 120rem; */
-    /* height: 40rem; */
-    /* flex-grow: 1; */
-    /* flex-direction: column; */
-    /* float: left; */
-    /* width: auto; */
-    /* padding: 10px; */
-    /* flex-direction: column; */
-    /* width: auto; */
 
 }
 
@@ -149,10 +131,6 @@ flex-direction: column;
 /* border: 1px solid; */
 margin-left: 1rem;
 margin-bottom: 1rem;
-/* width: auto; */
-/* justify-items: center; */
-/* border: 1px solid; */
-/* display: -ms-inline-grid; */
 
 
 /* gap: 10px; */
@@ -211,10 +189,7 @@ gap: 1rem;
     display: flex;
     flex-direction: column;
     padding-left: 6rem;
-    /* text-align: left; */
-    /* gap: 2rem; */
-    /* column-gap: 2rem; */
-    /* padding-block: 2rem; */
+    
 }
 
 .textII h2{
@@ -243,10 +218,7 @@ gap: 1rem;
     font-size: 3.2rem;
     font-weight: 800;
     text-align: center;
-    /* align-content: center; */
-    /* width: 97rem; */
-    /* margin: auto 3rem auto auto; */
-    /* display: flex; */
+   
     color: #373737;
 }
 #heroNew p{
